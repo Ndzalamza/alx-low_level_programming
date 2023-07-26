@@ -1,17 +1,15 @@
-#include <stdio.h>
+#include "main.h"
 
 /**
- * swamp_int - swamps the values of two integers.
- * @a: The first integer to be swapped.
- * @b: The second integer to be swapped.
- *
- * Return: nothing
- */
-
-void swamp_int(int *a, int *b)
-/* the function that swamps the values of the two integers. */
+ *  * swap_int - swaps the values of two integers
+ *   * @a: pointer to first value
+ *    * @b: pointer to second value
+ *     */
+void swap_int(int *a, int *b)
 {
-	int temp = *a;
-	*a = *b;
-	*b = temp;
+		int c;
+
+		c = *a;
+		*a = *b;
+                *b = c;
 }
